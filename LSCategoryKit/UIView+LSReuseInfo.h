@@ -5,7 +5,11 @@
 //  Created by dev on 2018/10/9.
 //  Copyright © 2018 dev. All rights reserved.
 //
-
+/**
+ *  快速生成重用信息
+ *
+ *  @author lsf
+ */
 #import <UIKit/UIKit.h>
 
 @interface UIView (LSReuseInfo)
