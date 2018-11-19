@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <LSCategoryKit/LSCategoryKit.h>
 
 @interface LSCategoryKitTests : XCTestCase
 
@@ -23,8 +24,20 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSString *str = [NSString ls_reverseWordsInString:@"我是中文woshizhongwen"];
+    NSLog(@"%@",str);
+    
+    NSString *str1 = [NSString ls_transformChinese2Pinyin:@"我是中文woshizhongwen"];
+    NSLog(@"%@",str1);
+    
+    NSString *str2 = [NSString ls_transformChinese2PinyinCamelCase:@"我是中文woshizhongwen"];
+    NSLog(@"%@",str2);
+    
+    NSArray *array = @[@"我是",@"黎少",@"锋",@"中文",@"啊啊",@"#",@"30"];
+    NSArray <NSString *> *strArray = [NSString ls_getFirstPinyinArrayWithChineseArray:array];
+    NSLog(@"%@",strArray);
+    
+    
 }
 
 - (void)testPerformanceExample {

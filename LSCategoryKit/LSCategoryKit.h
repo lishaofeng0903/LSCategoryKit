@@ -16,6 +16,6 @@ FOUNDATION_EXPORT const unsigned char LSCategoryKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LSCategoryKit/PublicHeader.h>
 
-#import <LSCategoryKit/UIView+LSSafeArea.h>
-#import <LSCategoryKit/UIView+LSReuseInfo.h>
+#import <LSCategoryKit/UIView+LSView.h>
 #import <LSCategoryKit/UIImage+LSImage.h>
+#import <LSCategoryKit/NSString+LSString.h>

@@ -33,22 +33,19 @@
 		D74B3E94216C7ECF002D5B44 /* LSCategoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D74B3E84216C7ECF002D5B44 /* LSCategoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74B3E97216C7ECF002D5B44 /* LSCategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74B3E82216C7ECF002D5B44 /* LSCategoryKit.framework */; };
 		D74B3E98216C7ECF002D5B44 /* LSCategoryKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D74B3E82216C7ECF002D5B44 /* LSCategoryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D74B3EA7216C7FAC002D5B44 /* UIView+LSSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = D74B3EA5216C7FAC002D5B44 /* UIView+LSSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D74B3EA8216C7FAC002D5B44 /* UIView+LSSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B3EA6216C7FAC002D5B44 /* UIView+LSSafeArea.m */; };
-		D74B3EAB216C83DD002D5B44 /* UIView+LSReuseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D74B3EA9216C83DD002D5B44 /* UIView+LSReuseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D74B3EAC216C83DD002D5B44 /* UIView+LSReuseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B3EAA216C83DD002D5B44 /* UIView+LSReuseInfo.m */; };
 		D74B3EAF216C86D7002D5B44 /* UIImage+LSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D74B3EAD216C86D7002D5B44 /* UIImage+LSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74B3EB0216C86D7002D5B44 /* UIImage+LSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B3EAE216C86D7002D5B44 /* UIImage+LSImage.m */; };
+		D74E8E8221A267220077D25B /* UIView+LSView.h in Headers */ = {isa = PBXBuildFile; fileRef = D74E8E8021A267220077D25B /* UIView+LSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74E8E8321A267220077D25B /* UIView+LSView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E8E8121A267220077D25B /* UIView+LSView.m */; };
+		D74E8E8621A26CAD0077D25B /* NSDate+LSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = D74E8E8421A26CAD0077D25B /* NSDate+LSDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74E8E8721A26CAD0077D25B /* NSDate+LSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E8E8521A26CAD0077D25B /* NSDate+LSDate.m */; };
+		D781D869216DF6E300E3B7CB /* NSString+LSString.h in Headers */ = {isa = PBXBuildFile; fileRef = D781D867216DF6E300E3B7CB /* NSString+LSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D781D86A216DF6E300E3B7CB /* NSString+LSString.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D868216DF6E300E3B7CB /* NSString+LSString.m */; };
+		D79C99F1216EE065003263A4 /* LSCategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74B3E82216C7ECF002D5B44 /* LSCategoryKit.framework */; };
+		D79C99F3216EE499003263A4 /* LSCategoryTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D79C99F2216EE499003263A4 /* LSCategoryTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D74B3E6F216C7E07002D5B44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D74B3E4E216C7E03002D5B44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D74B3E55216C7E03002D5B44;
-			remoteInfo = LSCategoryDemo;
-		};
 		D74B3E8C216C7ECF002D5B44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D74B3E4E216C7E03002D5B44 /* Project object */;
@@ -56,14 +53,14 @@
 			remoteGlobalIDString = D74B3E81216C7ECF002D5B44;
 			remoteInfo = LSCategoryKit;
 		};
-		D74B3E8E216C7ECF002D5B44 /* PBXContainerItemProxy */ = {
+		D74B3E95216C7ECF002D5B44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D74B3E4E216C7E03002D5B44 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D74B3E55216C7E03002D5B44;
-			remoteInfo = LSCategoryDemo;
+			remoteGlobalIDString = D74B3E81216C7ECF002D5B44;
+			remoteInfo = LSCategoryKit;
 		};
-		D74B3E95216C7ECF002D5B44 /* PBXContainerItemProxy */ = {
+		D79C99EE216EE058003263A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D74B3E4E216C7E03002D5B44 /* Project object */;
 			proxyType = 1;
@@ -106,12 +103,15 @@
 		D74B3E8A216C7ECF002D5B44 /* LSCategoryKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSCategoryKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74B3E91216C7ECF002D5B44 /* LSCategoryKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCategoryKitTests.m; sourceTree = "<group>"; };
 		D74B3E93216C7ECF002D5B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D74B3EA5216C7FAC002D5B44 /* UIView+LSSafeArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LSSafeArea.h"; sourceTree = "<group>"; };
-		D74B3EA6216C7FAC002D5B44 /* UIView+LSSafeArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSSafeArea.m"; sourceTree = "<group>"; };
-		D74B3EA9216C83DD002D5B44 /* UIView+LSReuseInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LSReuseInfo.h"; sourceTree = "<group>"; };
-		D74B3EAA216C83DD002D5B44 /* UIView+LSReuseInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSReuseInfo.m"; sourceTree = "<group>"; };
 		D74B3EAD216C86D7002D5B44 /* UIImage+LSImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LSImage.h"; sourceTree = "<group>"; };
 		D74B3EAE216C86D7002D5B44 /* UIImage+LSImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LSImage.m"; sourceTree = "<group>"; };
+		D74E8E8021A267220077D25B /* UIView+LSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LSView.h"; sourceTree = "<group>"; };
+		D74E8E8121A267220077D25B /* UIView+LSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSView.m"; sourceTree = "<group>"; };
+		D74E8E8421A26CAD0077D25B /* NSDate+LSDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LSDate.h"; sourceTree = "<group>"; };
+		D74E8E8521A26CAD0077D25B /* NSDate+LSDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LSDate.m"; sourceTree = "<group>"; };
+		D781D867216DF6E300E3B7CB /* NSString+LSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LSString.h"; sourceTree = "<group>"; };
+		D781D868216DF6E300E3B7CB /* NSString+LSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSString.m"; sourceTree = "<group>"; };
+		D79C99F2216EE499003263A4 /* LSCategoryTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCategoryTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79C99F1216EE065003263A4 /* LSCategoryKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +157,7 @@
 				D74B3E83216C7ECF002D5B44 /* LSCategoryKit */,
 				D74B3E90216C7ECF002D5B44 /* LSCategoryKitTests */,
 				D74B3E57216C7E03002D5B44 /* Products */,
+				D79C99F0216EE065003263A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +193,7 @@
 			children = (
 				D74B3E72216C7E07002D5B44 /* LSCategoryDemoTests.m */,
 				D74B3E74216C7E07002D5B44 /* Info.plist */,
+				D79C99F2216EE499003263A4 /* LSCategoryTestCase.m */,
 			);
 			path = LSCategoryDemoTests;
 			sourceTree = "<group>";
@@ -200,12 +203,14 @@
 			children = (
 				D74B3E84216C7ECF002D5B44 /* LSCategoryKit.h */,
 				D74B3E85216C7ECF002D5B44 /* Info.plist */,
-				D74B3EA5216C7FAC002D5B44 /* UIView+LSSafeArea.h */,
-				D74B3EA6216C7FAC002D5B44 /* UIView+LSSafeArea.m */,
-				D74B3EA9216C83DD002D5B44 /* UIView+LSReuseInfo.h */,
-				D74B3EAA216C83DD002D5B44 /* UIView+LSReuseInfo.m */,
+				D74E8E8021A267220077D25B /* UIView+LSView.h */,
+				D74E8E8121A267220077D25B /* UIView+LSView.m */,
 				D74B3EAD216C86D7002D5B44 /* UIImage+LSImage.h */,
 				D74B3EAE216C86D7002D5B44 /* UIImage+LSImage.m */,
+				D781D867216DF6E300E3B7CB /* NSString+LSString.h */,
+				D781D868216DF6E300E3B7CB /* NSString+LSString.m */,
+				D74E8E8421A26CAD0077D25B /* NSDate+LSDate.h */,
+				D74E8E8521A26CAD0077D25B /* NSDate+LSDate.m */,
 			);
 			path = LSCategoryKit;
 			sourceTree = "<group>";
@@ -219,6 +224,13 @@
 			path = LSCategoryKitTests;
 			sourceTree = "<group>";
 		};
+		D79C99F0216EE065003263A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -226,8 +238,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74B3EA7216C7FAC002D5B44 /* UIView+LSSafeArea.h in Headers */,
-				D74B3EAB216C83DD002D5B44 /* UIView+LSReuseInfo.h in Headers */,
+				D781D869216DF6E300E3B7CB /* NSString+LSString.h in Headers */,
+				D74E8E8621A26CAD0077D25B /* NSDate+LSDate.h in Headers */,
+				D74E8E8221A267220077D25B /* UIView+LSView.h in Headers */,
 				D74B3EAF216C86D7002D5B44 /* UIImage+LSImage.h in Headers */,
 				D74B3E94216C7ECF002D5B44 /* LSCategoryKit.h in Headers */,
 			);
@@ -266,7 +279,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D74B3E70216C7E07002D5B44 /* PBXTargetDependency */,
+				D79C99EF216EE058003263A4 /* PBXTargetDependency */,
 			);
 			name = LSCategoryDemoTests;
 			productName = LSCategoryDemoTests;
@@ -303,7 +316,6 @@
 			);
 			dependencies = (
 				D74B3E8D216C7ECF002D5B44 /* PBXTargetDependency */,
-				D74B3E8F216C7ECF002D5B44 /* PBXTargetDependency */,
 			);
 			name = LSCategoryKitTests;
 			productName = LSCategoryKitTests;
@@ -429,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79C99F3216EE499003263A4 /* LSCategoryTestCase.m in Sources */,
 				D74B3E73216C7E07002D5B44 /* LSCategoryDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,9 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74B3EA8216C7FAC002D5B44 /* UIView+LSSafeArea.m in Sources */,
-				D74B3EAC216C83DD002D5B44 /* UIView+LSReuseInfo.m in Sources */,
 				D74B3EB0216C86D7002D5B44 /* UIImage+LSImage.m in Sources */,
+				D74E8E8721A26CAD0077D25B /* NSDate+LSDate.m in Sources */,
+				D74E8E8321A267220077D25B /* UIView+LSView.m in Sources */,
+				D781D86A216DF6E300E3B7CB /* NSString+LSString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,25 +468,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D74B3E70216C7E07002D5B44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D74B3E55216C7E03002D5B44 /* LSCategoryDemo */;
-			targetProxy = D74B3E6F216C7E07002D5B44 /* PBXContainerItemProxy */;
-		};
 		D74B3E8D216C7ECF002D5B44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D74B3E81216C7ECF002D5B44 /* LSCategoryKit */;
 			targetProxy = D74B3E8C216C7ECF002D5B44 /* PBXContainerItemProxy */;
 		};
-		D74B3E8F216C7ECF002D5B44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D74B3E55216C7E03002D5B44 /* LSCategoryDemo */;
-			targetProxy = D74B3E8E216C7ECF002D5B44 /* PBXContainerItemProxy */;
-		};
 		D74B3E96216C7ECF002D5B44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D74B3E81216C7ECF002D5B44 /* LSCategoryKit */;
 			targetProxy = D74B3E95216C7ECF002D5B44 /* PBXContainerItemProxy */;
+		};
+		D79C99EF216EE058003263A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74B3E81216C7ECF002D5B44 /* LSCategoryKit */;
+			targetProxy = D79C99EE216EE058003263A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

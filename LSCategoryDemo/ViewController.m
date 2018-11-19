@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
+#import <LSCategoryKit/LSCategoryKit.h>
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *mView;
 
 @end
 
@@ -16,8 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)click:(UIButton *)sender {
+    sender.selected = !sender.selected;
+    
+    if (sender.selected) {
+        [self.mView ls_addMaskLayerCorner:UIRectCornerTopLeft|UIRectCornerBottomRight radius:30];
+    }else{
+        [self.mView ls_removeMaskLayerCorner];
+    }
+    
+    
+}
 
 @end

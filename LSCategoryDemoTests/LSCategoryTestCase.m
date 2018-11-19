@@ -1,20 +1,18 @@
 //
-//  LSCategoryDemoTests.m
+//  LSCategoryTestCase.m
 //  LSCategoryDemoTests
 //
-//  Created by dev on 2018/10/9.
+//  Created by dev on 2018/10/11.
 //  Copyright © 2018 dev. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-#import <LSCategoryKit/LSCategoryKit.h>
-
-@interface LSCategoryDemoTests : XCTestCase
+@interface LSCategoryTestCase : XCTestCase
 
 @end
 
-@implementation LSCategoryDemoTests
+@implementation LSCategoryTestCase
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,8 +26,7 @@
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    NSString *str = [NSString ls_makeString:@"￥",@"100",@"/",nil?:[NSDecimalNumber one],@"件"];
-    NSLog(@"str= %@",str);
+    
 }
 
 - (void)testPerformanceExample {
